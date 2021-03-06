@@ -965,6 +965,10 @@ h2 {
 
   border: 0;
   background-color: var(--white);
+
+  transition-property: color;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .close-button:hover,
@@ -1018,6 +1022,10 @@ h2 {
   border: 1px solid var(--border-form);
   border-radius: 4px;
   font-family: inherit;
+
+  transition-property: border;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .input-wrapper {
@@ -1031,6 +1039,10 @@ h2 {
   left: 12px;
 
   transform: translateY(-50%);
+
+  transition-property: fill;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .group-modal .form-input:focus {
@@ -1056,6 +1068,10 @@ h2 {
 
   border-radius: 4px;
   border: 1px solid var(--border-form);
+
+  transition-property: border;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .group-modal > .comment:focus {
@@ -1125,12 +1141,16 @@ h2 {
 }
 
 .checkbox:checked + .checkbox-icon {
-  border-color: var(--blue);
+  border-color: transparent;
   background-color: var(--blue);
   background-image: url(../images/Vectorch.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-origin: border-box;
+
+  transition-property: background-color;
+  transition-duration: var(--time);
+  transition-timing-function: var(--cubik-normal);
 }
 
 .checkbox-wrapper .checkbox-link {
