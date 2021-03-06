@@ -1049,15 +1049,13 @@ h2 {
   transition-timing-function: var(--cubik-normal);
 }
 
-.group-modal .form-input:focus,
-.group-modal .form-input:hover {
+.group-modal .form-input:focus {
   border: 1px solid var(--blue);
   outline: none;
   cursor: pointer;
 }
 
-.group-modal .form-input:focus + .form-icon,
-.group-modal .form-input:hover + .form-icon {
+.group-modal .form-input:focus + .form-icon {
   fill: var(--blue);
 }
 
@@ -1081,8 +1079,7 @@ h2 {
   transition-timing-function: var(--cubik-normal);
 }
 
-.group-modal > .comment:focus,
-.group-modal > .comment:hover {
+.group-modal > .comment:focus {
   border: 1px solid var(--blue);
   outline: none;
   cursor: pointer;
