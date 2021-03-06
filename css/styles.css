@@ -1144,6 +1144,10 @@ h2 {
   letter-spacing: 0.03em;
 }
 
+.checkbox-wrapper .checkbox-link:focus {
+  color: var(--blue);
+}
+
 .btn-submit {
   display: block;
 
