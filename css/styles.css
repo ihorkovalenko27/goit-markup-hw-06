@@ -803,7 +803,7 @@ h2 {
   color: var(--black-text);
   cursor: pointer;
 
-  transition-property: background-color;
+  transition-property: background-color, color;
   transition-duration: var(--time);
   transition-timing-function: var(--cubik-normal);
 }
