@@ -819,6 +819,7 @@ h2 {
 .btn-variants .variants:hover,
 .btn-variants .variants:focus {
   background-color: var(--blue);
+  color: var(--white-text);
 }
 
 /* Виды работ */
@@ -962,12 +963,13 @@ h2 {
 
 .close-button {
   position: absolute;
+
   right: 8px;
   top: 8px;
   width: 30px;
   height: 30px;
-  outline: none;
 
+  outline: none;
   border: 0;
   background-color: var(--white);
 
@@ -991,6 +993,8 @@ h2 {
   height: 30px;
   cursor: pointer;
   fill: currentColor;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
 }
 
 .form-title {
