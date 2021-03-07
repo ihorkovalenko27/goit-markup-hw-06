@@ -801,6 +801,7 @@ h2 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black-text);
+  cursor: pointer;
 
   transition-property: background-color;
   transition-duration: var(--time);
